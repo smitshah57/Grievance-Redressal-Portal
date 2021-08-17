@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Complaint Management System</title>
+        <link rel="stylesheet" href="styles/homepage_styles.css">
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+    </head>
+    
+    <body>
+        <div id="background_img" class="container-fluid">
+            <center><b><p id="page_title">Complaint Management System</p></b></center>
+            <div id="login_div" onclick="login_func()">
+                <center>
+                    <img src="images/Login.png">
+                    <p id="div_title"><b>Login</b></p>
+                    <p>Any queries? Feel free to add them!</p>
+                </center>
+            </div>
+            
+            <div id="register_div" onclick="login_func()">
+                <center>
+                    <img src="images/Register.png">
+                    <p id="div_title"><b>Register Now</b></p>
+                    <p>Join & Contribute to the community</p>
+                </center>
+            </div>
+        </div>
+    </body>
+    
+    <script>
+        function login_func(){
+            document.location.href = "login.html";
+        }
+        
+        function register_func(){
+            document.location.href = "register.html";
+        }
+    </script>
+</html>
